@@ -702,8 +702,8 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .social {
@@ -786,7 +786,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #f59669;
+    background: #f3976c;
     color: #FFFFFF!important;
 }
 
