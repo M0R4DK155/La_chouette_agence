@@ -446,6 +446,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .mg-lg {
@@ -745,7 +746,8 @@ h4 {
 }
 
 .white {
-    color: black!important;
+    color: white!important;
+    font-size: 24px;
 }
 
 .portfolio-thumb {
@@ -785,7 +787,7 @@ h4 {
 }
 
 .tc-white {
-    color: #FFEB3B!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
