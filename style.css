@@ -796,6 +796,7 @@ h4 {
 
 .tc-white {
     color: white!important;
+    font-size: 18px;
 }
 
 .btn-atomic-tangerine {
@@ -810,6 +811,7 @@ h4 {
 
 .ltc-white {
     color: white!important;
+    font-size: 28px;
 }
 
 .ltc-white:hover {
