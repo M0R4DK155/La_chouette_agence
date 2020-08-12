@@ -18,6 +18,11 @@ a:hover {
     cursor: pointer;
 }
 
+.citation{
+    font-style: italic;
+    font-weight: bold;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -471,6 +476,8 @@ nav .caret {
 
 button {
     outline: none!important;
+    border:none;
+
 }
 
 .btn-rd {
