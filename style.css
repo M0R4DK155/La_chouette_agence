@@ -700,6 +700,7 @@ p {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+    text-align: center;
 }
 
 .h1 {
@@ -740,11 +741,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: black!important;
 }
 
 h4 {
-    color: #333333!important;
+    color: black!important;
 }
 
 .icons {
