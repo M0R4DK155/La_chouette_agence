@@ -28,18 +28,18 @@
         <div class="container bloc-sm">
           <nav class="navbar row">
             <div class="navbar-header">
-              <button type="button" class="button_logo" tabindex="0" onclick="window.location.href = 'index.html';"><img src="img/la-chouette-agence.png" alt="Lien accueil logo noir et blanc, La chouette agence, entreprise web design Lyon "/></button>
-              <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+              <button type="button" class="button_logo" aria-label="bouton_logo" tabindex="0" onclick="window.location.href = 'index.html';"><img src="img/la-chouette-agence.png" alt="Lien accueil logo noir et blanc, La chouette agence, entreprise web design Lyon "/></button>
+              <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" aria-label="bouton_navigation" data-toggle="collapse" data-target=".navbar-1">
               <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
               </button>
             </div>
             <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
               <ul class="site-navigation nav navbar-nav">
                 <li>
-                  <button type="button" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero" tabindex="0" onclick="window.location.href = 'index.html';">Accueil</button>
+                  <button type="button" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero" aria-label="bouton_accueil" tabindex="0" onclick="window.location.href = 'index.html';">Accueil</button>
                 </li>
                 <li>
-                  <button type="button" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero" tabindex="0" onclick="window.location.href = 'contact.html';">Contact</button>
+                  <button type="button" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero" aria-label="bouton_contact" tabindex="0" onclick="window.location.href = 'contact.html';">Contact</button>
                 </li>
               </ul>
             </div>
@@ -73,28 +73,28 @@
                 <div class="form-group">
                   <label>
                   Nom
-                  <input id="name" class="form-control" required tabindex="0"/>
+                  <input id="name" class="form-control" aria-label="nom" required tabindex="0"/>
                   </label>
                 </div>
                 <div class="form-group">
                   <label>
                   Adresse email
-                  <input id="email" class="form-control" type="email" required tabindex="0"/>
+                  <input id="email" class="form-control" type="email" aria-label="email" required tabindex="0"/>
                   </label>
                 </div>
                 <div class="form-group">
                   <label>
                   Comment nous avez-vous connu ?
-                  <input class="form-control" type="email" required id="input_504" tabindex="0"/>
+                  <input class="form-control" type="email" aria-label="comment_nous_avez_vous_connu" required id="input_504" tabindex="0"/>
                   </label>
                 </div>
                 <div class="form-group">
                   <label>
                   Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-                  <textarea id="message" class="form-control" rows="4" cols="50" required tabindex="0"></textarea>
+                  <textarea id="message" class="form-control" rows="4" cols="50" aria-label="brief_de_votre_projet" required tabindex="0"></textarea>
                   </label>
                 </div>
-                <button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" tabindex="0">
+                <button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" aria-label="envoyer" tabindex="0">
                 Envoyer
                 </button>
               </form>
