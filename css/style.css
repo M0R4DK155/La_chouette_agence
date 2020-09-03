@@ -463,7 +463,7 @@ nav .caret {
 }
 
 .btn.pull-right {
-	margin: 0 0 5px 5px
+	margin: 0 0 5px 5px;
 }
 
 .btn-d,
@@ -475,7 +475,8 @@ nav .caret {
 
 button {
 	outline: 0!important;
-	border: none
+	border: none;
+	background-color: white;
 }
 
 .btn-rd {
