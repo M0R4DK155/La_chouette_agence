@@ -872,6 +872,7 @@ h4 {
 		max-width: 100%
 	}
 }
+
 @media (max-width:991px) {
 	.container {
 		width: 100%
@@ -1047,14 +1048,14 @@ h4 {
 		text-align: center
 	}
 	a[data-lightbox]:hover::before {
-		margin-left: 120px
+		margin-left: 75px
 	}
 	.portfolio-thumb {
 		margin: auto;
 		max-width: 50%;
 		max-height: 100%;
 	}
-	p{
+	p {
 		font-size: 18px;
 	}
 }
